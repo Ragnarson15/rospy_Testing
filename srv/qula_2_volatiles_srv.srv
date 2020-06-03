@@ -1,0 +1,12 @@
+#
+# Space Robotics Simulation, Phase 2
+# Copyright (c) 2019, NASA-JSC. All Rights Reserved
+# Unauthorized copying or distribution of this code is strictly prohibited
+#
+# Volatile Locations for the Qualification Round 2
+
+# there is no request field
+---
+geometry_msgs/Point[] poses
+float64[] starting_mass
+string[] volatile_type
