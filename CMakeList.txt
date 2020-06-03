@@ -55,13 +55,10 @@ find_package(catkin REQUIRED COMPONENTS
 # )
 
 # Generate services in the 'srv' folder
-# add_service_files(
-#   FILES
-#   AddTwoInts.srv
-#   qual_2_volatiles_srv.srv
-#  Localization_Srv.srv
-#   pathfinding_route_srv.srv
-# )
+ add_service_files(
+   FILES
+   qual_2_volatiles_srv.srv
+ )
 
 ## Generate actions in the 'action' folder
 # add_action_files(
