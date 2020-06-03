@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 import rospy
+from rospy_Testing.srv import *
 
 rospy.init_node('test_service_call')
 rospy.wait_for_service('/qual_2_services/volatile_locations')
