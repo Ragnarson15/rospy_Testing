@@ -1,0 +1,6 @@
+# No request field
+---
+geometry_msgs/Point[] poses
+float64[] starting_mass
+string[] volatile_type
+
